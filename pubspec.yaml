@@ -1,0 +1,45 @@
+name: workout_app
+description: A clean workout tracker with analytics and manual entry.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management – lightweight, scalable
+  provider: ^6.1.1
+
+  # Local persistence
+  shared_preferences: ^2.2.2
+
+  # Date/time utilities
+  intl: ^0.19.0
+
+  # Cupertino icons for iOS-native feel
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # Fonts: SF Pro Display falls back to system font on iOS.
+  # To embed a custom font (e.g. Inter), add the asset here:
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/
