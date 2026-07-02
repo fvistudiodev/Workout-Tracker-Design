@@ -4,7 +4,10 @@ A clean and responsive workout tracker UI built with Flutter.
 
 ## Preview
 
-
+<img src="assets/screenshots/Dashboard-Screenshot.png" alt="Flutter Workout Tracker Dashboard Page" width="400"/>
+<img src="assets/screenshots/Calender-Screenshot.png" alt="Flutter Workout Tracker Calender Page" width="400"/>
+<img src="assets/screenshots/Analytics-Screenshot.png" alt="Flutter Workout Tracker Analytics Page" width="400"/>
+<img src="assets/screenshots/Profile-Screenshot.png" alt="Flutter Workout Tracker Profile Page" width="400"/>
 
 ## Features
 
